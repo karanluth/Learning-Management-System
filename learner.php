@@ -10,7 +10,6 @@ Welcome  Registration Successful
    echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
    }
-echo "<br>";
 $n1=$_POST['fname'];
 $n2=$_POST['lname'];
 $n3=" ".$n1." ".$n2;
